@@ -7,8 +7,11 @@
 
 DEVICE_PATH := device/alps/oppo_a72
 
-# For building with minimal manifest
+# For building with TWRP minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
+
+#Assert
+TARGET_OTA_ASSERT_DEVICE := oppo_a72
 
 # Architecture
 TARGET_ARCH := arm64
